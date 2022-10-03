@@ -1,0 +1,71 @@
+In this video, you will be  introduced to Git and GitHub,
+two popular tools for collaborating  on an open source project.
+You'll learn more about: The background of Git;
+Key characteristics defined by  the initial development team;
+The Git Repository Model; The difference between Git and GitHub.
+Linux development in the  early 2000s was managed under
+a free-to-use system known as "BitKeeper." In 2005, BitKeeper changed to a for-fee system,
+which was problematic for Linux developers.  Linus Torvalds, the creator of Linux,
+led a team to develop a replacement  version control system for source code.
+The system they created was called "Git."  The project was completed in a short timeframe
+and its key characteristics were  defined by a small group.
+Some of Git's key characteristics defined  by the development group include:
+Strong support for non-linear  development. (Linux patches were then
+arriving at a rate of 6.7 patches per second). Distributed development. Each developer can have
+a local copy of the full development history. Compatibility with existing systems and protocols.
+This was necessary to acknowledge the  diversity of the Linux community.
+Efficient handling of large projects.  Git can scale to handle very large
+projects with many contributors. Cryptographic authentication of history.
+This ensures that distributed systems  all have identical code updates.
+Pluggable merge strategies. Having a large  number of pathways of development can lead
+to complex integration decisions that might  require explicit integration strategies.
+You'll encounter the term  "repository" throughout this course.
+It's an important term that  you need to understand.
+A repository -- often called a "repo" --  is a data structure for storing documents,
+including application source code. A repository can track and maintain
+version control.  In fact, you can think of a
+repository as a group of project folders that are  set up specifically for version control.
+So, what's special about  the Git Repository Model?
+Git is designed as a distributed  version control system.
+It's primarily focused on tracking  source code during development.
+It contains elements to coordinate  among programmers, track changes,
+and support non-linear workflows. It was created in 2005 by Linus Torvalds
+for distribution of Linux kernels. Git is a distributed version control system
+that is used to track changes to content. Git serves as a focal point for collaboration,
+with a particular focus on agile  development methodologies.
+In a central version control system,  every developer needs to check out
+code from the central system and commit  code changes back into that system.
+Because Git is a distributed version control  system, each developer has a local copy of
+the full development history, and changes are  copied from one such repository to another.
+Each developer can act as a hub because they  have their own copy of the source code.
+Teams can continuously integrate changes that  they make on their local version of the code
+with the main branch of deployable code.  They can then copy the updated deployable code
+to their local system and continue to work on  their local version between releases.
+Git also enables centralized task administration  with access-level controls for each team.
+You can work with Git by using tools such as  the GitHub Desktop client, or directly through a
+browser connected to the GitHub web interface. Note that IBM Cloud is based on sound
+and established open source tools,  including Git repositories .
+GitHub is an online hosting  service for Git repositories.
+GitHub is hosted by a subsidiary of Microsoft  and offers free, professional, and enterprise
+accounts. GitHub has over 190 million repositories  and 40 million users, making it the largest
+host of source code in the world. Other examples of hosting services
+for Git repositories include GitLab,  Bitbucket, and SourceForge.
+Following are some of the key  features offered by GitHub:
+Collaborative coding. Project members  can contribute to the projects quickly,
+make changes trackable, and build a  community around the source code.
+Automation & CI/CD. GitHub automates Continuous  Integration and Continuous Development,
+code testing, project planning and management,  issue tracking, code change approvals,
+and other tasks and processes.   Security. Github watches your repository
+and sends automatic security advisory  alerts to warn against vulnerabilities,
+including exposed passwords and secret files  like access tokens and private keys.
+Developers can set up more detailed security  checks within the Github workflow.
+Client apps. You can access GitHub using any  connected device. It provides support for mobile,
+command line interface, and desktop.   Team administration.
+GitHub can help simplify access and permissions  management across projects and teams.
+Project management. You can use GitHub to manage  a project by tracking progress and priorities
+and building a project roadmap. In this video, you've learned how:
+Git supports non-linear development;
+Git provides cryptographic  authentication of history;
+Git is a distributed version control system; Git enables centralized administration;
+GitHub is an online hosting service  for Git repositories.
+In the next video, you'll learn how  to use Git and GitHub together.
